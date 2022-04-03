@@ -54,8 +54,8 @@ public abstract class EnderecoRoomDatabase : RoomDatabase() {
         private suspend fun populateDatabase(enderecoDao: EnderecoDao) {
 
             enderecoDao.deleteAll()
-            var endereco = Endereco("Teste", "9999999", "00000-000", "Rua cambara orli",
-                                    "1200", "jardim aracare", "bl1ap1", "itaqua", "sp")
+            var endereco = Endereco("Exemplo", "55 011 9999999", "00000-000", "Rua Alura",
+                                    "555", "Jardim Kotlin", "Casa A", "São Paulo", "São Paulo")
             enderecoDao.insert(endereco)
         }
 
