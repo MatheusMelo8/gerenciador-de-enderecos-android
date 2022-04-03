@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Gerenciador de Endereços</string>
+    <string name="telefone">Telefone (ex: 55011 988887777)</string>
+    <string name="logradouro">Logradouro (mínimo: 10 caracteres)</string>
+    <string name="nome">Nome</string>
+    <string name="cep">CEP (ex: 12345678)</string>
+    <string name="n_mero">Número</string>
+    <string name="bairro">Bairro</string>
+    <string name="complemento">Complemento</string>
+    <string name="cidade">Cidade</string>
+    <string name="estado">Estado</string>
+    <string name="salvar">Salvar</string>
+    <string name="add_floating_button">Add Floating Button</string>
+    <string name="delete_all_floating_button">Delete all Floating button</string>
+</resources>
