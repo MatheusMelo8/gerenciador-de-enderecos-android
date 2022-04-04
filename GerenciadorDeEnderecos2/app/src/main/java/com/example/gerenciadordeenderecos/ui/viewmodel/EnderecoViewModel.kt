@@ -30,7 +30,7 @@ class EnderecoViewModelFactory(private val repository: EnderecoRepository) : Vie
             return EnderecoViewModel(repository) as T
         }
 
-        throw IllegalArgumentException("Uknow ViewModel class")
+        throw IllegalArgumentException("Unknow ViewModel class")
     }
 
 }
